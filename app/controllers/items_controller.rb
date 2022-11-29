@@ -48,6 +48,16 @@ class ItemsController < ApplicationController
     end
   end
 
+  def reset
+    Item.reset
+    redirect_to items_url, notice: "Items reset."
+  end
+
+  def update_quality
+    Item.update_quality
+    redirect_to items_url, notice: "Item qualities updated."
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_item
