@@ -29,7 +29,7 @@ Votre mission est d'ajouter une nouvelle fonctionnalité à notre système pour 
 
 Mais d'abord, laissez-moi vous présenter notre système :
 
-- Tous les éléments ont une valeur `sellIn` qui désigne le nombre de jours restant pour vendre l'article.
+- Tous les éléments ont une valeur `sell_in` qui désigne le nombre de jours restant pour vendre l'article.
 - Tous les articles ont une valeur `quality` qui dénote combien l'article est précieux.
 - À la fin de chaque journée, notre système diminue ces deux valeurs pour chaque produit.
 
@@ -42,7 +42,7 @@ Attendez, ça devient intéressant :
 - "Aged Brie" augmente sa qualité (`quality`) plus le temps passe.
 - La qualité d'un produit n'est jamais de plus de 50.
 - "Sulfuras", étant un objet légendaire, n'a pas de date de péremption et ne perd jamais en qualité (`quality`)
-- "Backstage passes", comme le "Aged Brie", augmente sa qualité (`quality`) plus le temps passe (`sellIn`) ; La qualité augmente de 2 quand il reste 10 jours ou moins et de 3 quand il reste 5 jours ou moins, mais la qualité tombe à 0 après le concert.
+- "Backstage passes", comme le "Aged Brie", augmente sa qualité (`quality`) plus le temps passe (`sell_in`) ; La qualité augmente de 2 quand il reste 10 jours ou moins et de 3 quand il reste 5 jours ou moins, mais la qualité tombe à 0 après le concert.
 
 Nous avons récemment signé un partenariat avec un fournisseur de produit invoqué ("Conjured").
 Cela nécessite une mise à jour de notre système :
