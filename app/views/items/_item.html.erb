@@ -1,22 +1,8 @@
-<div id="<%= dom_id item %>">
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Name:</strong>
-    <%= item.name %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Sell in:</strong>
-    <%= item.sell_in %>
-  </p>
-
-  <p class="my-5">
-    <strong class="block font-medium mb-1">Quality:</strong>
-    <%= item.quality %>
-  </p>
-
-  <% if action_name != "show" %>
-    <%= link_to "Show this item", item, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+<tr id="<%= dom_id item %>">
+  <td class="my-5 text-left"><%= item.name %></td>
+  <td class="my-5 text-right"><%= item.sell_in %></td>
+  <td class="my-5 text-right"><%= item.quality %></td>
+  <td class="my-5 text-right">
     <%= link_to 'Edit this item', edit_item_path(item), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
-    <hr class="mt-6">
-  <% end %>
-</div>
+  </td>
+</tr>

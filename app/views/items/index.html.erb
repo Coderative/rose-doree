@@ -8,7 +8,17 @@
     <%= link_to 'New item', new_item_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
   </div>
 
-  <div id="items" class="min-w-full">
-    <%= render @items %>
-  </div>
+  <table id="items" class="min-w-full table-auto">
+    <thead>
+      <tr>
+        <th class="text-left">Name</th>
+        <th class="text-right">Sell In</th>
+        <th class="text-right">Quality</th>
+        <th class="text-right"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <%= render @items %>
+    </tbody>
+  </table>
 </div>
