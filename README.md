@@ -5,7 +5,10 @@
 - `bundle install`
 - `bin/rails db:setup`
 - `bin/dev`
-- visiter [localhost:3000](http://localhost:3000)
+- visiter [localhost:3000/items](http://localhost:3000/items)
+- vous pouvez cliquer sur "Reset items" pour (re)généré une liste d'items
+- vous pouvez cliquer sur "Update quality" pour voir la qualité des articles
+  évoluer avec le temps.
 
 ![image](https://user-images.githubusercontent.com/6866370/204418268-8bdffb1c-2d2c-4357-bb4c-3b9904cb4d25.png)
 
