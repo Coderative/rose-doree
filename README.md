@@ -17,7 +17,9 @@
 
 Bonjour et bienvenue dans l'équipe de la Rose dorée.
 
-Comme vous le savez, notre petite taverne située à proximité d'une cité importante est dirigée par l'aubergiste amicale Allison.
+![image](https://static.wikia.nocookie.net/wowpedia/images/8/8b/The_Gilded_Rose.jpg/revision/latest?cb=20071222074445)
+
+Comme vous le savez, [notre petite taverne](https://wowpedia.fandom.com/wiki/Gilded_Rose) située à proximité d'une cité importante est dirigée par l'aubergiste amicale Allison.
 
 Nous achetons et vendons uniquement les meilleurs produits.
 Malheureusement, la qualité de nos marchandises se dégrade constamment à l'approche de leur date de péremption.
